@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <title>dumbass stick figures</title>
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    <head>
+        <meta http-equiv="refresh" content="0; url=50.html">
+        <style>
+            img { 
+                image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+                image-rendering: -moz-crisp-edges;          /* Firefox                        */
+                image-rendering: -o-crisp-edges;            /* Opera                          */
+                image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+                image-rendering: pixelated;                 /* Universal support since 2021   */
+                image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+                -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+            }
+
+            .center {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                min-height: calc(100vh - 16px);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="center"><img src="../img/redirect.gif"></div>
+    </body>
+</html>
