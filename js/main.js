@@ -1,4 +1,4 @@
-var upper = 50;
+var upper = 51;
 
 function randSite() {
 	var url = (Math.floor(Math.random()*upper)+1)+'.html'

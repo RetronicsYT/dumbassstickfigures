@@ -244,3 +244,9 @@
         content:url("img/c/m/50.png")
     }
 }
+
+@media screen and (width <= 700px) {
+    #m51 {
+        content:url("img/c/m/51.png")
+    }
+}
