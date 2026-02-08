@@ -1,7 +1,7 @@
 var upper = 51;
 
 function randSite() {
-	var url = (Math.floor(Math.random()*upper)+1)+'.html'
+	var url = (Math.floor(Math.random()*upper)+1)
 	window.location.href = url;
 };
 
@@ -12,19 +12,19 @@ document.onkeydown = function(event) {
     switch (event.key) {
         case "ArrowLeft":
             if (numUrl > 1) {
-                var newUrl = (numUrl-1)+'.html'
+                var newUrl = (numUrl-1)
                 window.location.href = newUrl;
             } else {
-                var newUrl = (numUrl)+'.html'
+                var newUrl = (numUrl)
                 window.location.href = newUrl;
             }
         break;
         case "ArrowRight":
             if (numUrl < upper) {
-                var newUrl = (numUrl+1)+'.html'
+                var newUrl = (numUrl+1)
                 window.location.href = newUrl;
             } else {
-                var newUrl = (numUrl)+'.html'
+                var newUrl = (numUrl)
                 window.location.href = newUrl;
             }
         break;
